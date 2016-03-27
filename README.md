@@ -13,7 +13,7 @@ Twitch potato programs that switch to resume your currently paused Netflix show
 or Twitch stream when you die and pause it before tabbing back to CS:GO when a
 new round starts.
 
-[Default binary download ](https://www.dropbox.com/s/nn2rogq41ezvub1/csgo-ccp-v0.1.1.zip?dl=0)
+[Binary download ](https://www.dropbox.com/s/nn2rogq41ezvub1/csgo-ccp-v0.1.1.zip?dl=0)
 
 CRC32 signature of *csgo-ccp-v1.0.0.zip*: **02F7373E**
 
