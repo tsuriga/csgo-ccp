@@ -13,7 +13,8 @@ Twitch potato programs that switch to resume your currently paused Netflix show
 or Twitch stream when you die and pause it before tabbing back to CS:GO when a
 new round starts.
 
-[Default binary download ](https://www.dropbox.com/s/nn2rogq41ezvub1/csgo-ccp-v0.1.1.zip?dl=0) \
+[Default binary download ](https://www.dropbox.com/s/nn2rogq41ezvub1/csgo-ccp-v0.1.1.zip?dl=0)
+
 CRC32 signature of csgo-ccp-v1.0.0.zip: 02F7373E
 
 You can use something like [RapidCRC](http://rapidcrc.sourceforge.net/) to
@@ -113,8 +114,8 @@ the server.
 
 ### Building
 
-**Potato programs:** Right-Click on *MyScript.ahk* and choose *Compile Script* \
-**Potato server:** `build_exe csgo-ccp.py` or
+- **Potato programs:** Right-Click on *MyScript.ahk* and choose *Compile Script*
+- **Potato server:** `build_exe csgo-ccp.py` or
 `cxfreeze csgo-ccp.py --target-dir dist -c -O -OO`
 
 If you encounter errors during potato server build, make sure you have *py2exe*
@@ -134,7 +135,7 @@ v1.0.0 (2016-03-27): First release
 
 ## About
 
-**Author:** tsuriga, 2016\
-**License:** MIT
+- **Author:** tsuriga, 2016
+- **License:** MIT
 
 *-Are you a wizard? -Yes.*
