@@ -15,7 +15,7 @@ new round starts.
 
 [Default binary download ](https://www.dropbox.com/s/nn2rogq41ezvub1/csgo-ccp-v0.1.1.zip?dl=0)
 
-CRC32 signature of csgo-ccp-v1.0.0.zip: 02F7373E
+CRC32 signature of *csgo-ccp-v1.0.0.zip*: **02F7373E**
 
 You can use something like [RapidCRC](http://rapidcrc.sourceforge.net/) to
 verify the signature.
