@@ -15,7 +15,7 @@ new round starts.
 
 [Binary download ](https://www.dropbox.com/s/nn2rogq41ezvub1/csgo-ccp-v0.1.1.zip?dl=0)
 
-CRC32 signature of *csgo-ccp-v1.0.0.zip*: **02F7373E**
+MD5 signature of *csgo-ccp-v0.1.1.zip*: **94b83a39d4c6d0c938c46**
 
 You can use something like [RapidCRC](http://rapidcrc.sourceforge.net/) to
 verify the signature.
@@ -131,11 +131,11 @@ Python executable).
 
 ## Changelog
 
-v1.0.0 (2016-03-27): First release
+v0.1.1 (2016-03-27): First release
 
 ## About
 
-- **Author:** tsuriga, 2016
+- **Author:** tsuriga, 2018
 - **License:** MIT
 
 *-Are you a wizard? -Yes.*
