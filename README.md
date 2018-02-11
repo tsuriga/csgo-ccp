@@ -135,6 +135,7 @@ Python executable).
 ## Changelog
 
 v1.1.0 (2018-02-11): Added wingman
+
 v0.1.1 (2016-03-27): First release
 
 ## About
