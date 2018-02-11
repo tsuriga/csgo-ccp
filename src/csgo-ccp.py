@@ -48,7 +48,7 @@ class PotatoConfig(ConfigParser):
     def validate_config(self):
         required_values = {
             'potato': {
-                'game_modes': ('casual', 'competitive'),
+                'game_modes': ('casual', 'competitive', 'scrimcomp2v2'),
                 'death_rite': None,
                 'respawn_beckon': None,
                 'wakeup_phase_round': ('over', 'freezetime'),
@@ -139,10 +139,6 @@ class PotatoRequestHandler(BaseHTTPRequestHandler):
                 method_name = 'detect_' + self.server.waiting_for
                 method = getattr(self, method_name, method_not_found)
                 method(payload)
-
-            # if payload != self.server.previous_payload:
-                # self.server.previous_payload = payload
-                # print(payload)
 
         else:
             self.reset_detection()

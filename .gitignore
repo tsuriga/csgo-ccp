@@ -1,2 +1,2 @@
-build/bin/*
-build/config.ini
+dist/
+src/__pycache__

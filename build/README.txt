@@ -1,4 +1,4 @@
-# CS:GO Casual Couch Potato - CSGO-CCP v1.0.0 (2016-03-27)
+# CS:GO Casual Couch Potato - CSGO-CCP v1.1.0 (2018-02-11)
 
 Keep getting yourself killed early into the rounds and can't be bothered to
 watch the rest of the round play out but don't want to miss out on any action
@@ -65,8 +65,8 @@ fine?
 active windows. They search for windows based on their titles and emulate
 keyboard presses and mouse clicks on your system. For example the Netflix potato
 program will attempt to find a window starting with the title "Netflix", and
-emit keypresses and mouseclicks assuming that those peripheral inputs land on
-the browser window to resume/pause and enter/exit full screen mode.
+emit keypresses and mouseclicks ASSUMING that those peripheral inputs will land
+on the browser window to resume/pause and enter/exit full screen mode.
 
 This means that if you have multiple windows matching the search criterion or
 other programs running that pop up to foreground on their own, or you are simply
@@ -90,7 +90,7 @@ built this on a 64-bit system, let me know if this doesn't work on 32-bit.
 
 ----
 
-How it works:
+How does it work:
 
 You'll run a server program on your computer and tell your CS:GO client to send
 information from your game to the server. From that information the server will

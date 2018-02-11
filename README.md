@@ -13,9 +13,9 @@ Twitch potato programs that switch to resume your currently paused Netflix show
 or Twitch stream when you die and pause it before tabbing back to CS:GO when a
 new round starts.
 
-[Binary download ](https://www.dropbox.com/s/nn2rogq41ezvub1/csgo-ccp-v0.1.1.zip?dl=0)
+[Binary download ](https://www.dropbox.com/s/jcv7s96k8wgqtkd/csgo-ccp-v1.1.0.zip?dl=0)
 
-MD5 signature of *csgo-ccp-v0.1.1.zip*: **94b83a39d4c6d0c938c46**
+MD5 signature of *csgo-ccp-v1.1.0.zip*: **e56b77b9feeccffdf9aa51c218ed7636**
 
 You can use something like [RapidCRC](http://rapidcrc.sourceforge.net/) to
 verify the signature.
@@ -59,9 +59,12 @@ Viaplay, YouTube, etc. in the form of push requests are more than welcome.
 1. Copy the *gamestate_integration_csgo-ccp.cfg* to your CS:GO config folder
    (normally *Steam\SteamApps\common\Counter-Strike Global Offensive\csgo\cfg*).
 2. Prepare the requirements of the potato program you're using (see below).
-3. Run `csgo-ccp.bat` (or `python csgo-ccp.py` for the source version).
-4. Run CS:GO and join a game.
-5. When you quit CS:GO, you can quit *csgo-ccp* with Ctrl+C.
+3. Build the .ahk AutoHotkey scripts into executables if you're running the
+   programme from source and not the pre-built binaries.
+4. Run `csgo-ccp.bat` (or `python csgo-ccp.py` under *src/* for the source
+   version).
+5. Run CS:GO and join a game.
+6. When you quit CS:GO, you can quit *csgo-ccp* with Ctrl+C.
 
 ### Netflix potato set up
 
@@ -103,8 +106,8 @@ which program to execute upon the forementioned events via a config file.
 
 You can build your own potato programs by installing AutoHotkey and compiling
 AHK scripts. If you wish to modify the potato server itself you'll need
-*Python >= 3.4* and *cx_Freeze >= 4.3.4* or *py2exe >= 0.9.2.2* for compiling
-the server.
+*Python 3.4* (later versions are not supported by py2exe) and
+*cx_Freeze >= 4.3.4* or *py2exe >= 0.9.2.2* for compiling the server.
 
 - [AutoHotkey](https://www.autohotkey.com/)
 - [Python >= 3.4](https://www.python.org/)
